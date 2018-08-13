@@ -3,10 +3,10 @@ package pl.coderslab.model;
 import java.util.Date;
 
 public class Customer {
-    String name;
-    String surename;
-    Date birthday;
-    int id;
+    private String name;
+    private String surename;
+    private Date birthday;
+    private int id;
 
     public Customer() {
     }

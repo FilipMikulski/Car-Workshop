@@ -1,13 +1,13 @@
 package pl.coderslab.model;
 
 public class Employee {
-    String name;
-    String surname;
-    String adress;
-    int phonenumber;
-    String note;
-    float workhours;
-    int id;
+    private String name;
+    private String surname;
+    private String adress;
+    private int phonenumber;
+    private String note;
+    private float workhours;
+    private int id;
 
     public Employee() {
     }
