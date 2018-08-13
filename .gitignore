@@ -8,9 +8,10 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
-### Intellij+iml ###
+
+# Created by https://www.gitignore.io/api/intellij+all
+
+### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -72,7 +73,12 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
-### Intellij+iml Patch ###
+### Intellij+all Patch ###
+# Ignores the whole .idea folder and all .iml files
+# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+
+.idea/
+
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
 *.iml
@@ -81,5 +87,4 @@ modules.xml
 *.ipr
 
 
-# End of https://www.gitignore.io/api/intellij+iml
-
+# End of https://www.gitignore.io/api/intellij+all
